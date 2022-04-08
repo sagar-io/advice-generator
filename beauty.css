@@ -98,9 +98,6 @@ body{
 
 
 @media(max-width: 375px){
-    body{
-        background: rgb(221, 121, 121);
-    }
     #ad-box{
         width: 95%;
         padding: 0.7rem;
