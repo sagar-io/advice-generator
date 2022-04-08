@@ -69,16 +69,19 @@ body{
 }
 #dice:hover{
    box-shadow:0 0 30px 2px hsl(150, 100%, 66%);   
+    border-radius: 50%;
+    
 }
 #dice:active{
     transform: translate(0px, 63px) scale(0.9);
+    
 }
+
 
 
 #dice div{
     background: url('images/icon-dice.svg') no-repeat center center;
     background-size: 40px;
-    border-radius: 50%;
     width: 85%;
     height: 85%;
 }
@@ -114,6 +117,7 @@ body{
    }
    #dice:active{
       box-shadow:0 0 30px 2px hsl(150, 100%, 66%);  
+      border-radius: 50%;
       transform: translate(0px, 63px) scale(0.9);
    }
 }
