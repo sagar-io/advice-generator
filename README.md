@@ -1,4 +1,4 @@
-Advice generator app 
+# Advice generator app 
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ I've used HTML, CSS and Vanilla JavaScript to create it. It is fully responsive 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://advice-generator-io.netlify.app/]
 
 ### Built with
 

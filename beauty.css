@@ -69,10 +69,14 @@ body{
 }
 #dice:hover{
    box-shadow:0 0 30px 2px hsl(150, 100%, 66%);   
+    border-radius: 50%;
+    
 }
 #dice:active{
     transform: translate(0px, 63px) scale(0.9);
+    
 }
+
 
 
 #dice div{
@@ -98,9 +102,6 @@ body{
 
 
 @media(max-width: 375px){
-    body{
-        background: rgb(221, 121, 121);
-    }
     #ad-box{
         width: 95%;
         padding: 0.7rem;
@@ -111,4 +112,12 @@ body{
         background: url('images/pattern-divider-mobile.svg') no-repeat center center;
     }
     
+    #dice:hover{
+      box-shadow: none;
+   }
+   #dice:active{
+      box-shadow:0 0 30px 2px hsl(150, 100%, 66%);  
+      border-radius: 50%;
+      transform: translate(0px, 63px) scale(0.9);
+   }
 }
